@@ -63,13 +63,13 @@ notes.post('/', (req, res) => {
   // DELETE Route for a specific note
 notes.delete('/:note_id', (req, res) => {
   const noteId = req.params.note_id;
-  console.log(noteId)
+  //console.log(noteId)
   fs.readFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json)=>{
       //const noteList = JSON.parse(data) 
 
-      console.log(json);
+      //console.log(json);
       // Make a new array of all tips except the one with the ID provided in the URL
       const result = json.filter((note) => note.note_id !== noteId);
 
