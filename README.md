@@ -44,7 +44,7 @@ The notes webpage will get notes saved from the server's database. The notes are
 
 Once both input boxes have been filled a new icon will appear right next to the other one on the top right hand of the screen. The new icon if clicked will dave the note information from the input boxes and make a new entery into the notes database. Any errors that occur will not be displayed on the client side. The server side itself is were errors are displayed. Another button to mention on the notes webpage is the trash icon on the notes displayed on the left. If the user clicks on the trash icon it will delete the note attached to that icon. One more thing to mention is that sometimes it takes a second or two to complete requests being made, so if you are loading, saveing, or deleteing something on the notes webpage we need to wait till that request is met to see changes.
 
-Here is a link to the webpage:
+Here is a link to the webpage: https://notebook-app.herokuapp.com
 
 
 ## Credits
